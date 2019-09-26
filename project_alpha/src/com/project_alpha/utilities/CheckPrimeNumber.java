@@ -1,8 +1,8 @@
 package com.project_alpha.utilities;
 
-public class PrimeCheck {
+public class CheckPrimeNumber {
 
-	public static boolean isPrime(long number) {
+	public static boolean isPrimeNumber(long number) {
 		boolean status=false;
        
 		if(number==0||number==1) {
@@ -29,7 +29,7 @@ public class PrimeCheck {
 	
 	public static void main(String[] args) {
 		/*Main method implementation starts....
-		 *System.out.println(isPrime(97));
+		 *System.out.println(isPrimeNumber(97));
 		 */
 	} 
 	

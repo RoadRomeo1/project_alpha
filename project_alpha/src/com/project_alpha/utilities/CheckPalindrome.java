@@ -1,9 +1,9 @@
 package com.project_alpha.utilities;
-public class PalindromeCheck {
+public class CheckPalindrome {
 
 
 
-	public static boolean isPlaindrome(String str) {
+	public static boolean isPalindrome(String str) {
 		boolean status=false;
 		
 		StringBuffer strb=new StringBuffer(str);
@@ -19,6 +19,6 @@ public class PalindromeCheck {
 	
 	public static void main(String[] args) {
 		//main stub comes here....
-		//System.out.println(isPlaindrome("madam"));
+		//System.out.println(isPalindrome("madam"));
 	 }
 }

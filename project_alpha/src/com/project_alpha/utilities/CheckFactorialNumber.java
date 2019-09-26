@@ -1,6 +1,6 @@
 package com.project_alpha.utilities;
 
-public class Factorial {
+public class CheckFactorialNumber {
 
 	public static long getFactorial(long number) {
 		long result=number;
