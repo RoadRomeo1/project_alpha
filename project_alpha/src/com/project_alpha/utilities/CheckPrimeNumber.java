@@ -7,7 +7,7 @@ public class CheckPrimeNumber {
 public static boolean isPrimeNumber(long number){
         boolean status = true;
 
-        if(number>=1)
+        if(number<=1)
             status = false;
 	else
         status = !LongStream.range(2, number).filter(n -> (number%n == 0) && (number != n)).findAny().isPresent();
